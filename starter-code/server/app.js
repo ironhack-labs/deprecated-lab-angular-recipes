@@ -7,7 +7,6 @@ const bodyParser   = require('body-parser');
 const routes       = require('./routes/index');
 const cors         = require('cors');
 
-require('./config/database');
 const app = express();
 app.use(cors());
 // view engine setup

@@ -1,0 +1,7 @@
+<div *ngFor="let dish of allDishesInfo">
+  {{dish.name}}
+  <img [src]="dish.image">
+  <a [routerLink]="['/dishes/',dish.name ]"> Detail </a>
+</div>
+
+<router-outlet></router-outlet>
